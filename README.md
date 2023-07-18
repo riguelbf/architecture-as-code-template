@@ -1,6 +1,35 @@
-# architecture-as-code-template
+
+Tabela de conteúdos
+=================
+<!--ts-->
+* [About project)](#about-project)
+* [What is Architecture-as-Code (AaC)?](#what-is-architecture-as-code-aac)
+* [Motivation](#motivation)
+* [How does the folder structure work?](#how-does-the-folder-structure-work)
+* [References](#references)
+* [Necessary tools](#necessary-tools)
+
+# About project
 
 Simple template to use architecture as code to create documentation about any project using C4 template
+
+# What is Architecture-as-Code (AaC)?
+
+Architecture-as-Code is under major construction at the moment, including this documentation. We’re doing a major design and implementation overhaul to address 3 primary objectives:
+
+* Adoptability / Approachability - If AaC is going to provide any value, the intended stakeholders must be willing to use it and get value from it.
+* Extensibility - The domains we work in are complex and require tailoring of any solution. Ensure AaC provides an approachable solution for extension.
+* Productivity / Efficiency - Embrace the DevOps principle of Flow by providing key automations to bridge MBSE and product development / delivery.
+
+# Motivation
+
+> Teams with good documentation deliver software faster and more reliably
+than those with poor documentation
+Accelerate State of DevOps Report, Google 2021
+
+Architectural documentation is one of the team's many responsibilities. Keeping architecture documentation consistent and up-to-date can be a challenging and time-consuming task, especially when things change quickly and the tools are not appropriate. Disturbing workflows, lack of automation and version control, as well as storing documentation separately from code are frequently encountered problems. As a result, architecture documents can become inconsistent and out of date.
+
+# How does the folder structure work?
 
 ```bash
 
@@ -34,4 +63,17 @@ Simple template to use architecture as code to create documentation about any pr
 ├── CURRENT_ARCHITECTURE_IMAGE.png
 ├── cli-automation.sh // bash tool for help during the implementation
 
-``````
+```
+
+# References
+
+* [Software Architecture As Code Tools](https://newsletter.techworld-with-milan.com/p/software-architecture-as-code-tools)
+* [Architecture-as-Code (AaC)](https://jondavid-black.github.io/AaC/)
+* [Architecture as code: The key to cloud success](https://www.cio.com/article/238479/architecture-as-code-the-key-to-cloud-success.html)
+* [Pulumi Blog - Architecture as Code](https://www.pulumi.com/blog/architecture-as-code-intro/)
+* [Top 7 diagrams as code tools for software architecture](https://icepanel.medium.com/top-7-diagrams-as-code-tools-for-software-architecture-1a9dd0df1815)
+
+# Necessary tools
+
+* [VsCode](https://code.visualstudio.com/)
+* [VsCode Drawio extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
