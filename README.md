@@ -76,4 +76,5 @@ Architectural documentation is one of the team's many responsibilities. Keeping 
 # Necessary tools
 
 * [VsCode](https://code.visualstudio.com/)
-* [VsCode Drawio extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+* [VsCode Drawio extension (to design system)](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+* [PlantUML (to many others diagrams)](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
